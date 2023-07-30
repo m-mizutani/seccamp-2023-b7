@@ -19,6 +19,6 @@ jobs:
 
       - name: Dump
         run: ./scripts/dump.sh
-      - uses: docker://openpolicyagent/opa:0.55.0-rootless
+      - uses: docker://openpolicyagent/opa:0.55.0
         with:
           args: "eval -f pretty -b policy --fail-defined data.ec2.failed"
