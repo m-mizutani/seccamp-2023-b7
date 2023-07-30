@@ -17,7 +17,8 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
 
-      - name: List EC2 instances
-        run: |
-          aws ec2 describe-instances > instances.json
-      - run: cat instances.json
+      - name: Dump
+        run: ./scripts/dump.sh
+      - uses: docker://openpolicyagent/opa:0.55.0-rootless
+        with:
+          args: "eval -f pretty -b policy --fail-defined data.ec2.failed"
