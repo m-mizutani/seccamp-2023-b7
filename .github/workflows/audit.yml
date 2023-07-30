@@ -19,4 +19,5 @@ jobs:
 
       - name: List EC2 instances
         run: |
-          aws ec2 describe-instances --query 'Reservations[].Instances[].{ID: InstanceId, State: State.Name, Type: InstanceType}' --output table
+          aws ec2 describe-instances > instances.json
+      - run: cat instances.json
