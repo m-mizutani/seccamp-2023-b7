@@ -1,0 +1,16 @@
+{
+  "instances": [
+    {
+      "network": "private",
+      "name": "blue"
+    },
+    {
+      "network": "public",
+      "name": "orange"
+    },
+    {
+      "network": "public",
+      "name": "red"
+    }
+  ]
+}
