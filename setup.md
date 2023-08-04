@@ -8,12 +8,9 @@
 2. OPAコマンドのインストール
     - 参考 https://www.openpolicyagent.org/docs/latest/#running-opa
     - ローカル環境で `opa version` が実行できていればOK
-3. gitでリポジトリをcloneできるようにする
-    - 具体的には https://github.com/m-mizutani/seccamp-2023-b7 のリポジトリをcloneできるようにする
-    - 講義直前まで更新される可能性あり
-4. GitHubアカウントを作成する（すでにある場合はそのアカウントでOK）
+3. GitHubアカウントを作成する（すでにある場合はそのアカウントでOK）
     - パブリックリポジトリを作成できるアカウントであること
-5. (optional) aws cli コマンドのインストール
+4. (optional) aws cli コマンドのインストール
     - 参考 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
     - 確認作業のため、あると便利かもしれません
 
@@ -23,4 +20,3 @@
 
 - Amazon EC2: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
 - Security Group: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html
-
