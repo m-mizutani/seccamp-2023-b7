@@ -1,6 +1,6 @@
 package ex2
 
 can_attend {
-    # @TODO: write your policy
+    # @TODO: remove "false" and write your policy
     false
 }

@@ -1,0 +1,165 @@
+{
+  "SecurityGroups": [
+    {
+      "Description": "launch-wizard-1 created 2023-07-30T00:57:22.256Z",
+      "GroupName": "launch-wizard-1",
+      "IpPermissions": [
+        {
+          "FromPort": 0,
+          "IpProtocol": "tcp",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "ToPort": 1024,
+          "UserIdGroupPairs": []
+        }
+      ],
+      "OwnerId": "939535369548",
+      "GroupId": "sg-0e936075a2285b8c7",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "VpcId": "vpc-0534c646843161bef"
+    },
+    {
+      "Description": "launch-wizard-2 created 2023-07-30T01:33:12.149Z",
+      "GroupName": "launch-wizard-2",
+      "IpPermissions": [],
+      "OwnerId": "939535369548",
+      "GroupId": "sg-031d794b11068cce7",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "VpcId": "vpc-0534c646843161bef"
+    },
+    {
+      "Description": "launch-wizard-4 created 2023-07-30T01:36:56.509Z",
+      "GroupName": "launch-wizard-4",
+      "IpPermissions": [
+        {
+          "FromPort": 443,
+          "IpProtocol": "tcp",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "ToPort": 443,
+          "UserIdGroupPairs": []
+        }
+      ],
+      "OwnerId": "939535369548",
+      "GroupId": "sg-0fbf4c4e1fd7f29ab",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "VpcId": "vpc-0534c646843161bef"
+    },
+    {
+      "Description": "launch-wizard-3 created 2023-07-30T01:35:33.123Z",
+      "GroupName": "launch-wizard-3",
+      "IpPermissions": [
+        {
+          "FromPort": 80,
+          "IpProtocol": "tcp",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "ToPort": 80,
+          "UserIdGroupPairs": []
+        }
+      ],
+      "OwnerId": "939535369548",
+      "GroupId": "sg-01fb323b858611676",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "VpcId": "vpc-0534c646843161bef"
+    },
+    {
+      "Description": "default VPC security group",
+      "GroupName": "default",
+      "IpPermissions": [
+        {
+          "FromPort": 22,
+          "ToPort": 22,
+          "IpProtocol": "tcp",
+          "IpRanges": [
+            {
+              "CidrIp": "10.0.0.0/8"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "OwnerId": "939535369548",
+      "GroupId": "sg-013e806bddfa5776b",
+      "IpPermissionsEgress": [
+        {
+          "IpProtocol": "-1",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "UserIdGroupPairs": []
+        }
+      ],
+      "VpcId": "vpc-0534c646843161bef"
+    }
+  ]
+}
