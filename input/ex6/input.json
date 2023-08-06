@@ -1,0 +1,818 @@
+{
+  "instances": {
+    "Reservations": [
+      {
+        "Groups": [],
+        "Instances": [
+          {
+            "AmiLaunchIndex": 0,
+            "ImageId": "ami-08c84d37db8aafe00",
+            "InstanceId": "i-0981f63cac5edede7",
+            "InstanceType": "t3.nano",
+            "KeyName": "seccamp-ap-northeast-1",
+            "LaunchTime": "2023-08-05T01:43:23+00:00",
+            "Monitoring": {
+              "State": "disabled"
+            },
+            "Placement": {
+              "AvailabilityZone": "ap-northeast-1a",
+              "GroupName": "",
+              "Tenancy": "default"
+            },
+            "PrivateDnsName": "ip-172-31-46-199.ap-northeast-1.compute.internal",
+            "PrivateIpAddress": "172.31.46.199",
+            "ProductCodes": [],
+            "PublicDnsName": "ec2-18-182-66-6.ap-northeast-1.compute.amazonaws.com",
+            "PublicIpAddress": "18.182.66.6",
+            "State": {
+              "Code": 16,
+              "Name": "running"
+            },
+            "StateTransitionReason": "",
+            "SubnetId": "subnet-0ca0ee5d02b779034",
+            "VpcId": "vpc-0dd9f7802e1cd33d1",
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+              {
+                "DeviceName": "/dev/xvda",
+                "Ebs": {
+                  "AttachTime": "2023-08-05T01:43:23+00:00",
+                  "DeleteOnTermination": true,
+                  "Status": "attached",
+                  "VolumeId": "vol-08154413ad6ae9ca4"
+                }
+              }
+            ],
+            "ClientToken": "ece7734d-26f0-4a65-a161-5a2aa7cac6b8",
+            "EbsOptimized": true,
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "NetworkInterfaces": [
+              {
+                "Association": {
+                  "IpOwnerId": "amazon",
+                  "PublicDnsName": "ec2-18-182-66-6.ap-northeast-1.compute.amazonaws.com",
+                  "PublicIp": "18.182.66.6"
+                },
+                "Attachment": {
+                  "AttachTime": "2023-08-05T01:43:23+00:00",
+                  "AttachmentId": "eni-attach-040cbc391abcd6b79",
+                  "DeleteOnTermination": true,
+                  "DeviceIndex": 0,
+                  "Status": "attached",
+                  "NetworkCardIndex": 0
+                },
+                "Description": "",
+                "Groups": [
+                  {
+                    "GroupName": "launch-wizard-3",
+                    "GroupId": "sg-06481c1764f2ec53d"
+                  }
+                ],
+                "Ipv6Addresses": [],
+                "MacAddress": "06:02:0b:48:92:29",
+                "NetworkInterfaceId": "eni-0df01194510801ebd",
+                "OwnerId": "939535369548",
+                "PrivateDnsName": "ip-172-31-46-199.ap-northeast-1.compute.internal",
+                "PrivateIpAddress": "172.31.46.199",
+                "PrivateIpAddresses": [
+                  {
+                    "Association": {
+                      "IpOwnerId": "amazon",
+                      "PublicDnsName": "ec2-18-182-66-6.ap-northeast-1.compute.amazonaws.com",
+                      "PublicIp": "18.182.66.6"
+                    },
+                    "Primary": true,
+                    "PrivateDnsName": "ip-172-31-46-199.ap-northeast-1.compute.internal",
+                    "PrivateIpAddress": "172.31.46.199"
+                  }
+                ],
+                "SourceDestCheck": true,
+                "Status": "in-use",
+                "SubnetId": "subnet-0ca0ee5d02b779034",
+                "VpcId": "vpc-0dd9f7802e1cd33d1",
+                "InterfaceType": "interface"
+              }
+            ],
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SecurityGroups": [
+              {
+                "GroupName": "launch-wizard-3",
+                "GroupId": "sg-06481c1764f2ec53d"
+              }
+            ],
+            "SourceDestCheck": true,
+            "Tags": [
+              {
+                "Key": "Name",
+                "Value": "seccamp-test3"
+              },
+              {
+                "Key": "env",
+                "Value": "staging"
+              }
+            ],
+            "VirtualizationType": "hvm",
+            "CpuOptions": {
+              "CoreCount": 1,
+              "ThreadsPerCore": 2
+            },
+            "CapacityReservationSpecification": {
+              "CapacityReservationPreference": "open"
+            },
+            "HibernationOptions": {
+              "Configured": false
+            },
+            "MetadataOptions": {
+              "State": "applied",
+              "HttpTokens": "required",
+              "HttpPutResponseHopLimit": 2,
+              "HttpEndpoint": "enabled",
+              "HttpProtocolIpv6": "disabled",
+              "InstanceMetadataTags": "disabled"
+            },
+            "EnclaveOptions": {
+              "Enabled": false
+            },
+            "BootMode": "uefi-preferred",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "UsageOperationUpdateTime": "2023-08-05T01:43:23+00:00",
+            "PrivateDnsNameOptions": {
+              "HostnameType": "ip-name",
+              "EnableResourceNameDnsARecord": true,
+              "EnableResourceNameDnsAAAARecord": false
+            },
+            "MaintenanceOptions": {
+              "AutoRecovery": "default"
+            },
+            "CurrentInstanceBootMode": "uefi"
+          }
+        ],
+        "OwnerId": "939535369548",
+        "ReservationId": "r-0d3e3d997c7533ac9"
+      },
+      {
+        "Groups": [],
+        "Instances": [
+          {
+            "AmiLaunchIndex": 0,
+            "ImageId": "ami-08c84d37db8aafe00",
+            "InstanceId": "i-001cc070b275e738d",
+            "InstanceType": "t3.nano",
+            "KeyName": "seccamp-ap-northeast-1",
+            "LaunchTime": "2023-08-05T01:44:01+00:00",
+            "Monitoring": {
+              "State": "disabled"
+            },
+            "Placement": {
+              "AvailabilityZone": "ap-northeast-1a",
+              "GroupName": "",
+              "Tenancy": "default"
+            },
+            "PrivateDnsName": "ip-172-31-35-64.ap-northeast-1.compute.internal",
+            "PrivateIpAddress": "172.31.35.64",
+            "ProductCodes": [],
+            "PublicDnsName": "ec2-52-198-224-126.ap-northeast-1.compute.amazonaws.com",
+            "PublicIpAddress": "52.198.224.126",
+            "State": {
+              "Code": 16,
+              "Name": "running"
+            },
+            "StateTransitionReason": "",
+            "SubnetId": "subnet-0ca0ee5d02b779034",
+            "VpcId": "vpc-0dd9f7802e1cd33d1",
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+              {
+                "DeviceName": "/dev/xvda",
+                "Ebs": {
+                  "AttachTime": "2023-08-05T01:44:02+00:00",
+                  "DeleteOnTermination": true,
+                  "Status": "attached",
+                  "VolumeId": "vol-0b664bbe2b4edcf54"
+                }
+              }
+            ],
+            "ClientToken": "93443a7b-4843-44f5-8bde-ad13464f20d1",
+            "EbsOptimized": true,
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "NetworkInterfaces": [
+              {
+                "Association": {
+                  "IpOwnerId": "amazon",
+                  "PublicDnsName": "ec2-52-198-224-126.ap-northeast-1.compute.amazonaws.com",
+                  "PublicIp": "52.198.224.126"
+                },
+                "Attachment": {
+                  "AttachTime": "2023-08-05T01:44:01+00:00",
+                  "AttachmentId": "eni-attach-0882be2043a28ae8e",
+                  "DeleteOnTermination": true,
+                  "DeviceIndex": 0,
+                  "Status": "attached",
+                  "NetworkCardIndex": 0
+                },
+                "Description": "",
+                "Groups": [
+                  {
+                    "GroupName": "launch-wizard-4",
+                    "GroupId": "sg-01967d50703bc3e83"
+                  }
+                ],
+                "Ipv6Addresses": [],
+                "MacAddress": "06:56:7d:92:9b:21",
+                "NetworkInterfaceId": "eni-084e05204cabce4e1",
+                "OwnerId": "939535369548",
+                "PrivateDnsName": "ip-172-31-35-64.ap-northeast-1.compute.internal",
+                "PrivateIpAddress": "172.31.35.64",
+                "PrivateIpAddresses": [
+                  {
+                    "Association": {
+                      "IpOwnerId": "amazon",
+                      "PublicDnsName": "ec2-52-198-224-126.ap-northeast-1.compute.amazonaws.com",
+                      "PublicIp": "52.198.224.126"
+                    },
+                    "Primary": true,
+                    "PrivateDnsName": "ip-172-31-35-64.ap-northeast-1.compute.internal",
+                    "PrivateIpAddress": "172.31.35.64"
+                  }
+                ],
+                "SourceDestCheck": true,
+                "Status": "in-use",
+                "SubnetId": "subnet-0ca0ee5d02b779034",
+                "VpcId": "vpc-0dd9f7802e1cd33d1",
+                "InterfaceType": "interface"
+              }
+            ],
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SecurityGroups": [
+              {
+                "GroupName": "launch-wizard-4",
+                "GroupId": "sg-01967d50703bc3e83"
+              }
+            ],
+            "SourceDestCheck": true,
+            "Tags": [
+              {
+                "Key": "env",
+                "Value": "staging"
+              },
+              {
+                "Key": "Name",
+                "Value": "seccamp-test4"
+              }
+            ],
+            "VirtualizationType": "hvm",
+            "CpuOptions": {
+              "CoreCount": 1,
+              "ThreadsPerCore": 2
+            },
+            "CapacityReservationSpecification": {
+              "CapacityReservationPreference": "open"
+            },
+            "HibernationOptions": {
+              "Configured": false
+            },
+            "MetadataOptions": {
+              "State": "applied",
+              "HttpTokens": "required",
+              "HttpPutResponseHopLimit": 2,
+              "HttpEndpoint": "enabled",
+              "HttpProtocolIpv6": "disabled",
+              "InstanceMetadataTags": "disabled"
+            },
+            "EnclaveOptions": {
+              "Enabled": false
+            },
+            "BootMode": "uefi-preferred",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "UsageOperationUpdateTime": "2023-08-05T01:44:01+00:00",
+            "PrivateDnsNameOptions": {
+              "HostnameType": "ip-name",
+              "EnableResourceNameDnsARecord": true,
+              "EnableResourceNameDnsAAAARecord": false
+            },
+            "MaintenanceOptions": {
+              "AutoRecovery": "default"
+            },
+            "CurrentInstanceBootMode": "uefi"
+          }
+        ],
+        "OwnerId": "939535369548",
+        "ReservationId": "r-0984d37e0a04c8933"
+      },
+      {
+        "Groups": [],
+        "Instances": [
+          {
+            "AmiLaunchIndex": 0,
+            "ImageId": "ami-08c84d37db8aafe00",
+            "InstanceId": "i-08c1f61337a6551b1",
+            "InstanceType": "t3.nano",
+            "KeyName": "seccamp-ap-northeast-1",
+            "LaunchTime": "2023-08-05T01:42:38+00:00",
+            "Monitoring": {
+              "State": "disabled"
+            },
+            "Placement": {
+              "AvailabilityZone": "ap-northeast-1a",
+              "GroupName": "",
+              "Tenancy": "default"
+            },
+            "PrivateDnsName": "ip-172-31-41-108.ap-northeast-1.compute.internal",
+            "PrivateIpAddress": "172.31.41.108",
+            "ProductCodes": [],
+            "PublicDnsName": "ec2-52-68-251-81.ap-northeast-1.compute.amazonaws.com",
+            "PublicIpAddress": "52.68.251.81",
+            "State": {
+              "Code": 16,
+              "Name": "running"
+            },
+            "StateTransitionReason": "",
+            "SubnetId": "subnet-0ca0ee5d02b779034",
+            "VpcId": "vpc-0dd9f7802e1cd33d1",
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+              {
+                "DeviceName": "/dev/xvda",
+                "Ebs": {
+                  "AttachTime": "2023-08-05T01:42:39+00:00",
+                  "DeleteOnTermination": true,
+                  "Status": "attached",
+                  "VolumeId": "vol-0c469cad7c5d7761c"
+                }
+              }
+            ],
+            "ClientToken": "fb3b7cbe-d58f-4ed7-a64e-b0ef76a98f33",
+            "EbsOptimized": true,
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "NetworkInterfaces": [
+              {
+                "Association": {
+                  "IpOwnerId": "amazon",
+                  "PublicDnsName": "ec2-52-68-251-81.ap-northeast-1.compute.amazonaws.com",
+                  "PublicIp": "52.68.251.81"
+                },
+                "Attachment": {
+                  "AttachTime": "2023-08-05T01:42:38+00:00",
+                  "AttachmentId": "eni-attach-002de420ae3f1925c",
+                  "DeleteOnTermination": true,
+                  "DeviceIndex": 0,
+                  "Status": "attached",
+                  "NetworkCardIndex": 0
+                },
+                "Description": "",
+                "Groups": [
+                  {
+                    "GroupName": "launch-wizard-2",
+                    "GroupId": "sg-07a375977536b8dd9"
+                  }
+                ],
+                "Ipv6Addresses": [],
+                "MacAddress": "06:b4:15:bc:53:3b",
+                "NetworkInterfaceId": "eni-060b7c01bba858c34",
+                "OwnerId": "939535369548",
+                "PrivateDnsName": "ip-172-31-41-108.ap-northeast-1.compute.internal",
+                "PrivateIpAddress": "172.31.41.108",
+                "PrivateIpAddresses": [
+                  {
+                    "Association": {
+                      "IpOwnerId": "amazon",
+                      "PublicDnsName": "ec2-52-68-251-81.ap-northeast-1.compute.amazonaws.com",
+                      "PublicIp": "52.68.251.81"
+                    },
+                    "Primary": true,
+                    "PrivateDnsName": "ip-172-31-41-108.ap-northeast-1.compute.internal",
+                    "PrivateIpAddress": "172.31.41.108"
+                  }
+                ],
+                "SourceDestCheck": true,
+                "Status": "in-use",
+                "SubnetId": "subnet-0ca0ee5d02b779034",
+                "VpcId": "vpc-0dd9f7802e1cd33d1",
+                "InterfaceType": "interface"
+              }
+            ],
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SecurityGroups": [
+              {
+                "GroupName": "launch-wizard-2",
+                "GroupId": "sg-07a375977536b8dd9"
+              }
+            ],
+            "SourceDestCheck": true,
+            "Tags": [
+              {
+                "Key": "env",
+                "Value": "production"
+              },
+              {
+                "Key": "Name",
+                "Value": "seccamp-test2"
+              }
+            ],
+            "VirtualizationType": "hvm",
+            "CpuOptions": {
+              "CoreCount": 1,
+              "ThreadsPerCore": 2
+            },
+            "CapacityReservationSpecification": {
+              "CapacityReservationPreference": "open"
+            },
+            "HibernationOptions": {
+              "Configured": false
+            },
+            "MetadataOptions": {
+              "State": "applied",
+              "HttpTokens": "required",
+              "HttpPutResponseHopLimit": 2,
+              "HttpEndpoint": "enabled",
+              "HttpProtocolIpv6": "disabled",
+              "InstanceMetadataTags": "disabled"
+            },
+            "EnclaveOptions": {
+              "Enabled": false
+            },
+            "BootMode": "uefi-preferred",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "UsageOperationUpdateTime": "2023-08-05T01:42:38+00:00",
+            "PrivateDnsNameOptions": {
+              "HostnameType": "ip-name",
+              "EnableResourceNameDnsARecord": true,
+              "EnableResourceNameDnsAAAARecord": false
+            },
+            "MaintenanceOptions": {
+              "AutoRecovery": "default"
+            },
+            "CurrentInstanceBootMode": "uefi"
+          }
+        ],
+        "OwnerId": "939535369548",
+        "ReservationId": "r-070801a23f2c1a055"
+      },
+      {
+        "Groups": [],
+        "Instances": [
+          {
+            "AmiLaunchIndex": 3,
+            "ImageId": "ami-08c84d37db8aafe00",
+            "InstanceId": "i-0d047b27307e1ecbe",
+            "InstanceType": "t3.nano",
+            "KeyName": "seccamp-ap-northeast-1",
+            "LaunchTime": "2023-08-05T01:36:20+00:00",
+            "Monitoring": {
+              "State": "disabled"
+            },
+            "Placement": {
+              "AvailabilityZone": "ap-northeast-1a",
+              "GroupName": "",
+              "Tenancy": "default"
+            },
+            "PrivateDnsName": "ip-172-31-42-206.ap-northeast-1.compute.internal",
+            "PrivateIpAddress": "172.31.42.206",
+            "ProductCodes": [],
+            "PublicDnsName": "ec2-54-199-209-122.ap-northeast-1.compute.amazonaws.com",
+            "PublicIpAddress": "54.199.209.122",
+            "State": {
+              "Code": 16,
+              "Name": "running"
+            },
+            "StateTransitionReason": "",
+            "SubnetId": "subnet-0ca0ee5d02b779034",
+            "VpcId": "vpc-0dd9f7802e1cd33d1",
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [
+              {
+                "DeviceName": "/dev/xvda",
+                "Ebs": {
+                  "AttachTime": "2023-08-05T01:36:21+00:00",
+                  "DeleteOnTermination": true,
+                  "Status": "attached",
+                  "VolumeId": "vol-0c0e0ec3e3dd1a3c9"
+                }
+              }
+            ],
+            "ClientToken": "5a0ff8ec-b315-4d0a-bfb3-1a2e9e80539b",
+            "EbsOptimized": true,
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "NetworkInterfaces": [
+              {
+                "Association": {
+                  "IpOwnerId": "amazon",
+                  "PublicDnsName": "ec2-54-199-209-122.ap-northeast-1.compute.amazonaws.com",
+                  "PublicIp": "54.199.209.122"
+                },
+                "Attachment": {
+                  "AttachTime": "2023-08-05T01:36:20+00:00",
+                  "AttachmentId": "eni-attach-0e0db5d9891e2ba5b",
+                  "DeleteOnTermination": true,
+                  "DeviceIndex": 0,
+                  "Status": "attached",
+                  "NetworkCardIndex": 0
+                },
+                "Description": "",
+                "Groups": [
+                  {
+                    "GroupName": "launch-wizard-1",
+                    "GroupId": "sg-03af3d22d3109a59a"
+                  }
+                ],
+                "Ipv6Addresses": [],
+                "MacAddress": "06:3d:a0:84:a4:e9",
+                "NetworkInterfaceId": "eni-0ab5cdc3a37db8129",
+                "OwnerId": "939535369548",
+                "PrivateDnsName": "ip-172-31-42-206.ap-northeast-1.compute.internal",
+                "PrivateIpAddress": "172.31.42.206",
+                "PrivateIpAddresses": [
+                  {
+                    "Association": {
+                      "IpOwnerId": "amazon",
+                      "PublicDnsName": "ec2-54-199-209-122.ap-northeast-1.compute.amazonaws.com",
+                      "PublicIp": "54.199.209.122"
+                    },
+                    "Primary": true,
+                    "PrivateDnsName": "ip-172-31-42-206.ap-northeast-1.compute.internal",
+                    "PrivateIpAddress": "172.31.42.206"
+                  }
+                ],
+                "SourceDestCheck": true,
+                "Status": "in-use",
+                "SubnetId": "subnet-0ca0ee5d02b779034",
+                "VpcId": "vpc-0dd9f7802e1cd33d1",
+                "InterfaceType": "interface"
+              }
+            ],
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SecurityGroups": [
+              {
+                "GroupName": "launch-wizard-1",
+                "GroupId": "sg-03af3d22d3109a59a"
+              }
+            ],
+            "SourceDestCheck": true,
+            "Tags": [
+              {
+                "Key": "Name",
+                "Value": "seccamp-test1"
+              },
+              {
+                "Key": "env",
+                "Value": "production"
+              }
+            ],
+            "VirtualizationType": "hvm",
+            "CpuOptions": {
+              "CoreCount": 1,
+              "ThreadsPerCore": 2
+            },
+            "CapacityReservationSpecification": {
+              "CapacityReservationPreference": "open"
+            },
+            "HibernationOptions": {
+              "Configured": false
+            },
+            "MetadataOptions": {
+              "State": "applied",
+              "HttpTokens": "required",
+              "HttpPutResponseHopLimit": 2,
+              "HttpEndpoint": "enabled",
+              "HttpProtocolIpv6": "disabled",
+              "InstanceMetadataTags": "disabled"
+            },
+            "EnclaveOptions": {
+              "Enabled": false
+            },
+            "BootMode": "uefi-preferred",
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "UsageOperationUpdateTime": "2023-08-05T01:36:20+00:00",
+            "PrivateDnsNameOptions": {
+              "HostnameType": "ip-name",
+              "EnableResourceNameDnsARecord": true,
+              "EnableResourceNameDnsAAAARecord": false
+            },
+            "MaintenanceOptions": {
+              "AutoRecovery": "default"
+            },
+            "CurrentInstanceBootMode": "uefi"
+          }
+        ],
+        "OwnerId": "939535369548",
+        "ReservationId": "r-0aa9f970db48f55d3"
+      }
+    ]
+  },
+  "security_groups": {
+    "SecurityGroups": [
+      {
+        "Description": "launch-wizard-1 created 2023-08-05T01:29:35.082Z",
+        "GroupName": "launch-wizard-1",
+        "IpPermissions": [
+          {
+            "FromPort": 22,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "10.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "PrefixListIds": [],
+            "ToPort": 22,
+            "UserIdGroupPairs": []
+          },
+          {
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "PrefixListIds": [],
+            "ToPort": 443,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "OwnerId": "939535369548",
+        "GroupId": "sg-03af3d22d3109a59a",
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "PrefixListIds": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "VpcId": "vpc-0dd9f7802e1cd33d1"
+      },
+      {
+        "Description": "launch-wizard-3 created 2023-08-05T01:42:46.870Z",
+        "GroupName": "launch-wizard-3",
+        "IpPermissions": [
+          {
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "PrefixListIds": [],
+            "ToPort": 443,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "OwnerId": "939535369548",
+        "GroupId": "sg-06481c1764f2ec53d",
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "PrefixListIds": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "VpcId": "vpc-0dd9f7802e1cd33d1"
+      },
+      {
+        "Description": "launch-wizard-2 created 2023-08-05T01:42:00.227Z",
+        "GroupName": "launch-wizard-2",
+        "IpPermissions": [
+          {
+            "FromPort": 22,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "PrefixListIds": [],
+            "ToPort": 22,
+            "UserIdGroupPairs": []
+          },
+          {
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "PrefixListIds": [],
+            "ToPort": 443,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "OwnerId": "939535369548",
+        "GroupId": "sg-07a375977536b8dd9",
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "PrefixListIds": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "VpcId": "vpc-0dd9f7802e1cd33d1"
+      },
+      {
+        "Description": "launch-wizard-4 created 2023-08-05T01:43:29.717Z",
+        "GroupName": "launch-wizard-4",
+        "IpPermissions": [
+          {
+            "FromPort": 443,
+            "IpProtocol": "tcp",
+            "IpRanges": [
+              {
+                "CidrIp": "1.0.0.0/8"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "PrefixListIds": [],
+            "ToPort": 443,
+            "UserIdGroupPairs": []
+          }
+        ],
+        "OwnerId": "939535369548",
+        "GroupId": "sg-01967d50703bc3e83",
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "PrefixListIds": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "VpcId": "vpc-0dd9f7802e1cd33d1"
+      },
+      {
+        "Description": "default VPC security group",
+        "GroupName": "default",
+        "IpPermissions": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [],
+            "Ipv6Ranges": [],
+            "PrefixListIds": [],
+            "UserIdGroupPairs": [
+              {
+                "GroupId": "sg-0d05b163727d59c0a",
+                "UserId": "939535369548"
+              }
+            ]
+          }
+        ],
+        "OwnerId": "939535369548",
+        "GroupId": "sg-0d05b163727d59c0a",
+        "IpPermissionsEgress": [
+          {
+            "IpProtocol": "-1",
+            "IpRanges": [
+              {
+                "CidrIp": "0.0.0.0/0"
+              }
+            ],
+            "Ipv6Ranges": [],
+            "PrefixListIds": [],
+            "UserIdGroupPairs": []
+          }
+        ],
+        "VpcId": "vpc-0dd9f7802e1cd33d1"
+      }
+    ]
+  }
+}

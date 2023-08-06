@@ -1,0 +1,47 @@
+{
+  "instances": [
+    {
+      "id": "i-aaaaa",
+      "cpu_id": "cpu-aaaaa",
+      "volume_id": "vol-aaaaa"
+    },
+    {
+      "id": "i-bbbbb",
+      "cpu_id": "cpu-bbbbb",
+      "volume_id": "vol-bbbbb"
+    },
+    {
+      "id": "i-ccccc",
+      "cpu_id": "cpu-ccccc",
+      "volume_id": "vol-ccccc"
+    }
+  ],
+  "cpus": [
+    {
+      "id": "cpu-aaaaa",
+      "cost": 0.5
+    },
+    {
+      "id": "cpu-bbbbb",
+      "cost": 1.5
+    },
+    {
+      "id": "cpu-ccccc",
+      "cost": 2.5
+    }
+  ],
+  "volumes": [
+    {
+      "id": "vol-aaaaa",
+      "cost": 3.8
+    },
+    {
+      "id": "vol-bbbbb",
+      "cost": 2.3
+    },
+    {
+      "id": "vol-ccccc",
+      "cost": 4.1
+    }
+  ]
+}

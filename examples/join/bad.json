@@ -1,0 +1,7 @@
+{
+  "resource": {
+    "name": "test.csv",
+    "label": "secret"
+  },
+  "user_id": "bob"
+}
