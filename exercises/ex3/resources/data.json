@@ -1,0 +1,28 @@
+[
+  {
+    "id": "D813122C-D5CC-4B6C-862D-1A4B117D0908",
+    "owner": "bob",
+    "permissions": {
+      "engineer": "editor"
+    },
+    "name": "bob's first project"
+  },
+  {
+    "id": "6F92A25A-2D05-4CA8-A335-0E8AB780169D",
+    "owner": "david",
+    "permissions": {
+      "engineer": "viewer",
+      "designer": "viewer"
+    },
+    "name": "product development plan"
+  },
+  {
+    "id": "F2F6F2F2-6F2F-2F6F-2F6F-2F6F2F6F2F6F",
+    "owner": "eve",
+    "permissions": {
+      "engineer": "viewer",
+      "designer": "editor"
+    },
+    "name": "first design draft"
+  }
+]
